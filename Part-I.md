@@ -299,6 +299,14 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/v0.10.0/Docume
 > Source: [Kubernetes.io](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/)
 
 
+## UPDATE
+
+For Kubernetes v1.7+ 
+```shell
+kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+```
+> Source: [Flannel](https://github.com/coreos/flannel)
+
 
 ## Kubernetes Worker Nodes
 
